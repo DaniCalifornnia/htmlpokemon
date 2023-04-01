@@ -1,0 +1,143 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+header {background-color: #306bb3;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header > img {
+    width: 50%;
+    max-width: 150px;
+    margin-left: 3%;
+}
+
+header > div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+
+header > div > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+  background-color: white;
+  color: #306bb3;
+  border: none;
+  min-width: 82px;
+  min-height: 38px;
+  border-radius: 4px;
+}
+
+main {
+    width: 99%;
+    display: flex;
+    padding: 80px 30px;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 90%;
+}
+
+main > img {
+    width: 50%;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+section > div > a {
+    color: black;
+    padding: 30px;
+    font-weight: bolder;
+}
+
+section > p {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer {
+    width: 100%;
+  display: flex;
+  background-color: #306bb3;
+  color: white;
+  justify-content: space-between;
+  padding: 50px 30px;
+  align-items: center;
+}
+
+
+footer > div > img {
+    max-width: 150px;
+    max-height: 55px;
+}
+
+footer > p {
+    width: 50%;
+}
+
+.redes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icons{
+    display: flex;
+    gap: 50;
+    font-size: 30px;
+}
+
+footer > div .icons > a {
+    color: white;
+}
+
+.links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.links > ul > li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
