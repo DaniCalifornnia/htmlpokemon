@@ -109,19 +109,36 @@ main>h2 {
   .card>div>button{
     width: 45%;
     height: 100%;
-    background-color: var(--primaryColor);
+    background-color: #306bb3;
     border: none;
     color: #fff;
     font-weight: 600;
     border-radius: 4px;
   }
 main > button {
+  border: none;
+  padding: 16px 32px;
   background-color: white;
   color: #306bb3;
   border: none;
   min-width: 82px;
   min-height: 38px;
   border-radius: 4px;
+}
+
+div > .button1 {
+  border: none;
+  width: 8%;
+  height: 50%;
+  color: white;
+  background-color: #306bb3;
+  gap: 30px;
+  padding: 8px 16px;
+  min-width: 82px;
+  min-height: 42px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
 }
 
 footer {
