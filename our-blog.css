@@ -1,0 +1,22 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+main > div > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+    float: left;
+    color: #306bb3;
+}
+
+main > img > aside {
+  float: left; 
+  justify-content: left;
+}
+
+article {
+    text-align:center
+}
