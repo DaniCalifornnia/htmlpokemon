@@ -17,5 +17,4 @@ if(!userName){ // null or '' --> false ---> !false --->true
     } else{
         console.log("Bienvenido!");
     }
-
 }
