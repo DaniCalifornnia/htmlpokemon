@@ -38,6 +38,27 @@ const creatPoke = async ()  => {
 }
 
 creatPoke();
-   
 
-    
+const filter = document.querySelectorAll('.type');
+
+filter.forEach((filterType) => {
+    filterType.addEventListener("click", (event) => {
+      event.preventDefault();
+      const type = filterType.textContent.toLowerCase();
+      filterByType(type);
+    });
+  });
+  
+  const filterByType = (type) => {
+    const cards = document.querySelectorAll(".pokeCard");
+    cards.forEach((card) => {
+      const cardType1 = card.getAttribute("type1");
+      const cardType2 = card.getAttribute("type2");
+  
+      if (type === "all" || cardType1 === type || cardType2 === type) {
+        card.classList.remove("hidden");
+      } else {
+        card.classList.add("hidden");
+      }
+    });
+  };

@@ -4,6 +4,22 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+body.darkMode {
+    background-color: #1A202C;
+}
+  
+.darkMode h1{
+    color: white;
+}
+  
+.darkMode ul>li>a{
+    color: white;
+}
+  
+.darkMode p{
+    color: white;
+}
+
 main > div > h2 {
     display: flex;
     justify-content: center;

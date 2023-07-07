@@ -4,8 +4,20 @@
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-li {
-    list-style: none;
+body.darkMode {
+    background-color: #1A202C;
+}
+
+.darkMode h1{
+    color: white;
+}
+
+.darkMode ul>li>a{
+    color: white;
+}
+  
+.darkMode p{
+    color: white;
 }
 
 header {background-color: #306bb3;
@@ -83,6 +95,40 @@ section > p {
     font-size: 16px;
 }
 
+body.darkMode {
+    background-color: #1A202C;
+}
+
+.darkMode h1{
+    color: white;
+}
+
+.darkMode ul>li>a{
+    color: white;
+}
+
+.darkMode p{
+    color: white;
+}
+
+.dark_mode{
+    height: 40%;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    color: #306bb3;
+    font-weight: 500;
+    cursor:pointer;
+    padding: 0 2%;
+}
+
+.p1{
+    color: #1A202C;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    margin-top: 30px;
+    text-align: center;
+  } 
 footer {
     width: 100%;
   display: flex;
@@ -140,4 +186,3 @@ footer > div .icons > a {
     font-weight: 500;
     font-size: 16px;
 }
-
