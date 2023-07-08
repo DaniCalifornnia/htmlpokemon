@@ -5,7 +5,7 @@
 }
 
 body.darkMode {
-    background-color: #1A202C;
+    background-color: #ff91af;
 }
   
 .darkMode h1{
@@ -20,19 +20,50 @@ body.darkMode {
     color: white;
 }
 
-main > div > h2 {
+.Header1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .Header1 h1{
+    color: #486284;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 300%;
+    line-height: 150%;
+  }
+  
+  .Header1 p{
+    color: #1A202C;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1A202C;
+  }
+  
+  section{
     display: flex;
     justify-content: center;
-    align-items: flex-start
-    float: left;
-    color: #306bb3;
-}
-
-main > img > aside {
-  float: left; 
-  justify-content: left;
-}
-
-article {
-    text-align:center
-}
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+  }
+  
+  section>p{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 150%;
+    color: #1A202C;
+  }

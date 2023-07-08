@@ -7,11 +7,11 @@
 }
 
 body.darkMode {
-  background-color: #1A202C;
+  background-color: #ff91af;
 }
 
 .darkMode h1{
-  color: white;
+  color: rgb(85, 24, 78);
 }
 
 .darkMode ul>li>a{
