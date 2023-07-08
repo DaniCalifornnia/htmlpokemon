@@ -159,6 +159,18 @@ main>h2 {
   gap: 0 36px;
 }
 
+.buybtn {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.headerCard {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
 footer {
     width: 100%;
   display: flex;
