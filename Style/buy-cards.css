@@ -54,8 +54,8 @@ header > div > nav > ul > li > a {
 }
 
 button {
-  background-color: white;
-  color: #306bb3;
+  background-color: #febcec;
+  color: #050505;
   border: none;
   min-width: 82px;
   min-height: 38px;
@@ -81,7 +81,6 @@ h1{
   font-family: 'Plus Jakarta Sans';
   font-style: normal;
   text-align: center;
-  color: #486284;
   font-size: 3rem;
 }
 
@@ -94,6 +93,7 @@ h1{
   border-bottom: 2px solid;
   text-align: center;
 }
+
 section {
   display: flex;
   align-content: center;
@@ -168,63 +168,62 @@ main>h2 {
 .headerCard {
   display: flex;
   justify-content: space-between;
-  margin: 15px;
 }
 
 footer {
-    width: 100%;
-  display: flex;
-  background-color: #306bb3;
-  color: white;
-  justify-content: space-between;
-  padding: 50px 30px;
-  align-items: center;
+  width: 100%;
+display: flex;
+background-color: #306bb3;
+color: white;
+justify-content: space-between;
+padding: 50px 30px;
+align-items: center;
 }
 
 
 footer > div > img {
-    max-width: 150px;
-    max-height: 55px;
+  max-width: 150px;
+  max-height: 55px;
 }
 
 footer > p {
-    width: 50%;
+  width: 50%;
 }
 
 .redes {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .icons{
-    display: flex;
-    gap: 50;
-    font-size: 30px;
+  display: flex;
+  gap: 50;
+  font-size: 30px;
 }
 
 footer > div .icons > a {
-    color: white;
+  color: white;
 }
 
 .links {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .links > ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .links > ul > li {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
 }

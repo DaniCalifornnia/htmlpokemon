@@ -82,10 +82,11 @@ main > img {
 h1 {
     font-weight: 800;
     font-size: 40px;
+    color: #486284;
 }
 
 section > div > a {
-    color: white;
+    color: #306bb3;
     padding: 30px;
     font-weight: bolder;
 }
@@ -129,6 +130,7 @@ body.darkMode {
     margin-top: 30px;
     text-align: center;
   } 
+
 footer {
     width: 100%;
   display: flex;
