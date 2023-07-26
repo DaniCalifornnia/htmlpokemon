@@ -20,46 +20,48 @@ body.darkMode {
     color: white;
 }
 
-header {background-color: #306bb3;
+header {
+    background-color: #306bb3;
     height: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center
-}
-
-header > img {
+    align-items: center;
+    padding: 1% 0;
+  }
+  
+  #logo {
     width: 50%;
     max-width: 150px;
     margin-left: 3%;
-}
-
-header > div {
+  }
+  
+  header > div {
     width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.list{
+  }
+  
+  .list{
     display: flex;
     list-style: none;
     gap: 50px;
     align-items: center;
-}
-
-header > div > nav > ul > li > a {
+  }
+  
+  header > div > nav > ul > li > a {
     color: white;
     text-decoration: none;
-}
-
-button {
+  }
+  
+  button {
   background-color: #febcec;
   color: #050606;
   border: none;
   min-width: 82px;
   min-height: 38px;
   border-radius: 4px;
-}
+  }
 
 main {
     width: 99%;
@@ -131,60 +133,59 @@ body.darkMode {
     text-align: center;
   } 
 
-footer {
+  footer {
     width: 100%;
-  display: flex;
-  background-color: #306bb3;
-  color: white;
-  justify-content: space-between;
-  padding: 50px 30px;
-  align-items: center;
-}
-
-
-footer > div > img {
-    max-width: 150px;
-    max-height: 55px;
-}
-
-footer > p {
-    width: 50%;
-}
-
-.redes {
-    width: 50%;
     display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-.icons{
-    display: flex;
-    gap: 50;
-    font-size: 30px;
-}
-
-footer > div .icons > a {
+    background-color: #306bb3;
     color: white;
-}
-
-.links {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.links > ul {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.links > ul > li {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-}
+    justify-content: space-between;
+    padding: 3% 3%;
+    align-items: center;
+    }
+  
+  footer > div > img {
+  max-width: 150px;
+  max-height: 55px;
+  }
+  
+  footer > p {
+  width: 50%;
+  }
+  
+  .redes {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  }
+  
+  .icons{
+  display: flex;
+  gap: 15px;
+  font-size: 30px;
+  }
+  
+  footer > div .icons > a {
+  color: white;
+  }
+  
+  .links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  }
+  
+  .links > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  }
+  
+  .links > ul > li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  }

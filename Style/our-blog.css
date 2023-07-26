@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Plus Jakarta Sans", sans-serif;
+  list-style: none;
 }
 
 body.darkMode {
@@ -20,17 +21,59 @@ body.darkMode {
   color: white;
 }
 
-div > .text_align_center {
-height: 100px;
-width: 200px;
+header {
+  background-color: #306bb3;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 0;
+}
+
+#logo {
+  width: 50%;
+  max-width: 150px;
+  margin-left: 3%;
+}
+
+header > div {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  align-items: center;
+}
+
+header > div > nav > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+background-color: #febcec;
+color: #050606;
+border: none;
+min-width: 82px;
+min-height: 38px;
+border-radius: 4px;
+}
+
+.title {
+width: 100%;
+padding-top: 3%;
+
 
 color: #486284;
 font-weight: 800;
 font-size: 40px;
 
-line-height: 100px;
 text-align: center;
-vertical-align: middle;
 }
 
 section > div > p{
@@ -43,7 +86,6 @@ padding-left: 3%;
 
 #allpokemons{
 margin: 50px;
-
 }
 
 .p2{
@@ -65,22 +107,34 @@ max-width: 50px;
 margin-left: 3%;
 }
 
-main > section {
-align-items: center;
+main {
+min-height: 55vh;
+}
+
+iframe {
+  width: 80%;
+  height: 30vh;
+}
+
+.content {
+  display: flex;
+  margin: 3% 10%;
+  height: 40vh;
+}
+
+.content>p {
+  padding: 5%;
 }
 
 footer {
-position: absolute;
-bottom: 0;
-width: 100%;
-display: flex;
-background-color: #306bb3;
-color: white;
-justify-content: space-between;
-padding: 50px 30px;
-align-items: center;
+  width: 100%;
+  display: flex;
+  background-color: #306bb3;
+  color: white;
+  justify-content: space-between;
+  padding: 3% 3%;
+  align-items: center;
 }
-
 
 footer > div > img {
 max-width: 150px;
@@ -100,7 +154,7 @@ gap: 30px;
 
 .icons{
 display: flex;
-gap: 50;
+gap: 15px;
 font-size: 30px;
 }
 

@@ -21,14 +21,17 @@ body.darkMode {
 .darkMode p{
   color: white;
 }
-header {background-color: #306bb3;
+
+header {
+  background-color: #306bb3;
   height: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
+  padding: 1% 0;
 }
 
-header > img {
+#logo {
   width: 50%;
   max-width: 150px;
   margin-left: 3%;
@@ -54,12 +57,12 @@ header > div > nav > ul > li > a {
 }
 
 button {
-  background-color: #febcec;
-  color: #050505;
-  border: none;
-  min-width: 82px;
-  min-height: 38px;
-  border-radius: 4px;
+background-color: #febcec;
+color: #050606;
+border: none;
+min-width: 82px;
+min-height: 38px;
+border-radius: 4px;
 }
 
 .main-nav {
@@ -117,12 +120,12 @@ main>h2 {
     text-align:initial;
     color: #486284;
     font-size: 3rem;
-  }
+}
   
-  main>p {
+main>p {
     text-align: center;
     margin-top: 30px;
-  }
+}
   
 .pokeCard{
     background-color: #dee5ed;
@@ -134,9 +137,9 @@ main>h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
+}
   
- .imgPoke{
+.imgPoke{
     background-color: white;
     border-radius: 4px;
   }
@@ -168,62 +171,62 @@ main>h2 {
 .headerCard {
   display: flex;
   justify-content: space-between;
+
 }
 
 footer {
   width: 100%;
-display: flex;
-background-color: #306bb3;
-color: white;
-justify-content: space-between;
-padding: 50px 30px;
-align-items: center;
-}
-
+  display: flex;
+  background-color: #306bb3;
+  color: white;
+  justify-content: space-between;
+  padding: 3% 3%;
+  align-items: center;
+  }
 
 footer > div > img {
-  max-width: 150px;
-  max-height: 55px;
+max-width: 150px;
+max-height: 55px;
 }
 
 footer > p {
-  width: 50%;
+width: 50%;
 }
 
 .redes {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+width: 50%;
+display: flex;
+flex-direction: column;
+gap: 30px;
 }
 
 .icons{
-  display: flex;
-  gap: 50;
-  font-size: 30px;
+display: flex;
+gap: 15px;
+font-size: 30px;
 }
 
 footer > div .icons > a {
-  color: white;
+color: white;
 }
 
 .links {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
+width: 50%;
+display: flex;
+justify-content: space-around;
 }
 
 .links > ul {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
 }
 
 .links > ul > li {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
 }

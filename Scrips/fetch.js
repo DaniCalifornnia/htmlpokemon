@@ -1,8 +1,11 @@
-let url= "https://pokeapi.co/api/v2/pokemon";
+let url= "https://pokeapi.co/api/v2";
+
+let offset = 0
+let limit = 20
 
 const creatPoke = async ()  => {
     try {
-        const res = await fetch(url);// name + url pokemon API
+        const res = await fetch(`${url}/pokemon?offset=${offset}&limit=${limit}`);  // name + url pokemon API
         const data = await res.json();
 
         data.results.forEach ( async (pokemon) => {
@@ -27,17 +30,20 @@ const creatPoke = async ()  => {
                 <button>Buy</button>
             </div>
             `
-            container.appendChild(pokeCard);
-            
+            container.appendChild(pokeCard) 
 
         });
-        
+       offset+=limit 
     }catch (error){
         alert ("error");
     }
 }
 
-creatPoke();
+creatPoke(); 
+
+const showmore = document.querySelector(".buttonbuymore")
+
+showmore.addEventListener("click", creatPoke)
 
 const filter = document.querySelectorAll('.type');
 
